@@ -10,11 +10,17 @@ In this course, you'll delve into the latest advancements in LLMs and the librar
 1. 🛠 **Generating Structured Output**: Learn to generate structured output, including function calls, using LLMs.
 2. 💬 **LangChain Expression Language (LCEL)**: Explore LCEL, a new syntax that simplifies customization of chains and agents to build applications.
 <p align="center">
+why use LCEL?
+<img src="images/why-use-lcel.png" height="300"> 
+</p>
+<p align="center">
 <img src="images/2_1.png" height="350"> 
 <img src="images/2_2.png" height="350"> 
 </p>
 
 3. 🔄 **Function Calling for Tagging and Data Extraction**: Apply function calling to tasks like tagging and data extraction.
+
+通过bind函数，不仅能够调用函数，而且利用调用函数的语法特性，可以让llm输出指定的json格式
 <p align="center">
 <img src="images/4_1.png" height="300"> 
 <img src="images/4_2.png" height="300"> 
